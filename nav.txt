@@ -1,0 +1,36 @@
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light navigationbar fixed-top">
+      <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+
+        <img src="images/Picsart_23-05-02_11-04-37-640.jpg" alt="Logo" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Certificate">Certificates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav> -->

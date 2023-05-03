@@ -1,0 +1,358 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* .navigationbar{
+    position:fixed;
+} */
+
+/* .collapse ul{
+    position:fixed
+} */
+.socialLinks{
+    /* display: flex; */
+    align-content: space-evenly;
+    padding-top:10px;
+    padding:10px;
+    max-width: fit-content;
+}
+
+.socialLinks a {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 11px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 7px;
+}
+.socialLinks a:hover {
+    background-color: aqua;
+}
+
+.socialLinks a .social {
+    height: 50px;
+    padding-right: 15px;
+    
+}
+#home{
+    background-image: url(./yellow-watercolor-paper_95678-446.avif);
+    background-size:cover;
+    /* max-width: 100%; */
+    /* height: auto; */
+    height: 600px;
+}
+
+.bg img{
+    height: 400px;
+}
+
+.homeTxt{
+    margin-top: 50px;
+}
+/* .name{
+    margin-top: 50px;
+} */
+.dev{
+    color: #191970;
+}
+/* .navbar{
+    background-color: transparent;
+} */
+.homeTxt h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    max-width: fit-content;
+}
+.homeTxt h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    max-width: fit-content;
+}
+
+
+/* .navbar .nav-link:hover{
+    color: white;
+    background-color: #19197085
+} */
+
+.pic img{
+    top: 110px;
+    position: relative;
+    z-index: 1;
+    left: 50px;
+    border-radius:15px 30px;
+    box-shadow: 10px 15px #19197085;
+    height: 320px;
+    /* width: 400px; */
+}
+.aboutHead {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #191970;
+    font-weight: 800px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 200px;
+}
+.about{
+    background-color: 	#F5F5F5;
+    display: flex;
+    max-width: 1135px;
+}
+/* .personaldetails{
+    margin-left: 120px;
+} */
+.det{
+    margin: 2px;
+}
+body{
+    background-color:#E0E0E0;
+}
+
+.aboutme h3, .personaldetails h3{
+    color: #191970;
+    font-family:'Poppins', sans-serif ;
+    font-weight: 600px;
+}
+
+.aboutme p, .personaldetails p{
+    font-family:'Poppins', sans-serif ;
+}
+
+.education{
+  
+    display: flex;
+    background-color: 	#F5F5F5;
+    
+}
+
+.education h2{
+    text-align: center;
+}
+.edu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top:30px;
+    color: #191970;
+    font-weight: 800px;
+    font-family:'Poppins', sans-serif ;
+    font-size: 200px;
+}
+.line{
+    border-left:solid 4px #191970;
+    height:60px;
+    /* padding-right: 30px; */
+    
+}
+/* .nav-link{
+    padding-right: 100px;
+} */
+
+.certiHead{
+
+   display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top:30px;
+    color: #191970;
+    font-weight: 800px;
+    font-family:'Poppins', sans-serif ;
+    font-size: 200px;
+}
+
+.projHead{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top:30px;
+    color: #191970;
+    font-weight: 800px;
+    font-family:'Poppins', sans-serif ;
+    font-size: 200px;
+}
+
+.card{
+    margin: auto;
+}
+
+.skill{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top:30px;
+    color: #191970;
+    font-weight: 800px;
+    font-family:'Poppins', sans-serif ;
+    /* font-size: 200px; */
+}
+
+.skillImgs img{
+    height:500px;
+    padding:1px
+    
+}
+
+.skills{
+    background-color: #F5F5F5;
+    font-family:'Poppins', sans-serif ;
+
+}
+
+.contHead{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top:30px;
+    color: #191970;
+    font-weight: 800px;
+    font-family:'Poppins', sans-serif ;
+    font-size: 200px;
+}
+
+.sub{
+    display: flex;
+    margin-left: 500px;
+   
+}
+
+.gcv{
+    background-color: #191970;
+    font-family:'Poppins', sans-serif ;
+
+}
+
+.Certificates{
+    background-color: #F5F5F5;  
+    font-family:'Poppins', sans-serif ;
+ 
+}
+
+.projects{
+    background-color: #F5F5F5; 
+    font-family:'Poppins', sans-serif ;
+  
+}
+
+.contact{
+    background-color: #F5F5F5;  
+    font-family:'Poppins', sans-serif ;
+    
+}
+
+.aboutimg{
+        top: 10px;
+        /* position: relative; */
+        /* z-index: 1; */
+        /* left: 50px; */
+        border-radius: 15px 30px;
+        /* box-shadow: 10px 15px #19197085; */
+        height: 460px;
+        width: 275px;
+}
+
+.sociallinksbtm{
+    /* display: flex; */
+    align-content: space-evenly;
+    padding-top:10px;
+    padding:10px;
+    margin-left: 430px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.sociallinksbtm a .social {
+    height: 30px;
+    padding-right: 15px;   
+}
+
+#home,#about,#education,#skills,#Certificate,
+#Project,#Contact{
+    padding-top: 75px;
+}
+#linedisplay{
+    display: none;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white!important;
+}
+.nav-link:hover{
+    border-bottom: 1px solid black;
+    background-color: #191970a3;
+    color: white;
+    /* font-size:15px; */
+    
+    }
+#logo img{
+    height: 55px;
+    /* width: 183px; */
+
+}
+
+
+
+
+
+/* Media Queries for "MOBILE PHONES" */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .homeTxt h1{
+        font-size:40px;
+    }       
+    .homeTxt h3{
+        font-size:10px;
+    }
+    .bg img {
+        height: 224px;
+    }
+    .aboutme h3{
+        font-size: 14px;
+    }
+    .aboutme p{
+        font-size: 10px;
+    }
+    .personaldetails h3{
+        font-size: 14px;
+    }
+    .personaldetails p{
+        font-size: 10px;
+    }
+    .personaldetails img{
+        display: none;
+    }
+    .eduCont h3{
+        font-size: 14px;
+    }
+    .eduCont p{
+        font-size: 10px;
+        margin-bottom: 1px;
+    }
+    .line{
+        border-left:solid 2px #191970;
+        height:20px;
+    }
+    #linedisplay{
+        display: block;
+    }
+    .sub{
+        margin-left: 95px;
+    }
+    .sociallinksbtm{
+        margin-left: 0px;
+    }
+    .skillImgs img {
+        height: 200px;
+        padding-left: 100px;
+    
+}
+}
