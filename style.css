@@ -45,8 +45,11 @@
     height: 600px;
 }
 
-.bg img{
-    height: 400px;
+.bg img {
+    height: 350px;
+    margin-top: 65px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 15px 10px rgb(0,0,0,.4);
 }
 
 .homeTxt{
@@ -308,12 +311,18 @@ body{
     
     .homeTxt h1{
         font-size:40px;
-    }       
+    } 
+
+    #logo img {
+    height: 30px;
+    /* width: 183px; */
+    }      
     .homeTxt h3{
         font-size:10px;
     }
     .bg img {
         height: 224px;
+        margin-top: 10px;
     }
     .aboutme h3{
         font-size: 14px;
@@ -348,11 +357,36 @@ body{
         margin-left: 95px;
     }
     .sociallinksbtm{
-        margin-left: 0px;
+        margin-left: 25px;
     }
     .skillImgs img {
         height: 200px;
         padding-left: 100px;
     
 }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bg img{
+        height: 250px;
+    }
+    .homeTxt h1{
+        font-size: 65px;
+    }
+    .homeTxt h3{
+        font-size: 20px;
+    }
+    .skillImgs img {
+        height: 275px;
+        padding: 1px;
+    }
+    .sub {
+    display: flex;
+    margin-left: 300px;
+    }
+
+    
+    .sociallinksbtm{
+    margin-left: 235px;
+    }
 }
