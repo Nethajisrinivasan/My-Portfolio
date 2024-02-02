@@ -29,7 +29,7 @@
     padding-top: 7px;
 }
 .socialLinks a:hover {
-    background-color: aqua;
+    background-color: lightgray;
 }
 
 .socialLinks a .social {
@@ -42,7 +42,7 @@
     background-size:cover;
     /* max-width: 100%; */
     /* height: auto; */
-    height: 600px;
+    height: 668px;
 }
 
 .bg img {
@@ -54,6 +54,7 @@
 
 .homeTxt{
     margin-top: 50px;
+    padding-left: 50px;
 }
 /* .name{
     margin-top: 50px;
@@ -194,10 +195,10 @@ body{
     /* font-size: 200px; */
 }
 
-.skillImgs img{
-    height:500px;
-    padding:1px
-    
+.skillsimg{
+    background-color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .skills{
@@ -219,7 +220,8 @@ body{
 
 .sub{
     display: flex;
-    margin-left: 500px;
+    /* margin-left: 500px; */
+    justify-content: center;
    
 }
 
@@ -238,6 +240,7 @@ body{
 .projects{
     background-color: #F5F5F5; 
     font-family:'Poppins', sans-serif ;
+    padding:30px
   
 }
 
@@ -259,13 +262,12 @@ body{
 }
 
 .sociallinksbtm{
-    /* display: flex; */
+
+    display: flex;
     align-content: space-evenly;
-    padding-top:10px;
-    padding:10px;
-    margin-left: 430px;
-    margin-top: 15px;
-    margin-bottom: 50px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .sociallinksbtm a .social {
@@ -301,14 +303,23 @@ body{
     /* width: 183px; */
 
 }
-
-
+.carousel-item h5,p{
+    background-color: white;
+}
 
 
 
 /* Media Queries for "MOBILE PHONES" */
 @media (min-width: 320px) and (max-width: 480px) {
-    
+    .homeText{
+        display: flex;
+        justify-content: center;
+        /* padding-left: 0px; */
+        /* flex-direction: column; */
+    }
+    .homeTxt{
+        padding-left: 0px;
+    }
     .homeTxt h1{
         font-size:40px;
     } 
@@ -319,6 +330,10 @@ body{
     }      
     .homeTxt h3{
         font-size:10px;
+    }
+    .bg{
+        display: flex;
+        justify-content: center;
     }
     .bg img {
         height: 224px;
@@ -353,18 +368,19 @@ body{
     #linedisplay{
         display: block;
     }
-    .sub{
+    /* .sub{
         margin-left: 95px;
-    }
+    } */
     .sociallinksbtm{
         margin-left: 25px;
     }
-    .skillImgs img {
+    .skillsimg img {
         height: 200px;
-        padding-left: 100px;
+        /* padding-left: 100px; */
     
 }
 }
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .bg img{
